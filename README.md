@@ -26,4 +26,5 @@ echo 'You got to trust me on this, I saved the world'
 {% endcode %}
 
 
+[![Run on Repl.it](https://repl.it/badge/github/rakesh2215/linux-cli)](https://repl.it/github/rakesh2215/linux-cli)
 
