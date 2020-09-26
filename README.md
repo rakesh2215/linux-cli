@@ -1,30 +1,44 @@
 ---
-description: Basic commands for file operations
+description: Basic commands for file and directory operations
 ---
 
 # Linux Commands
 
-## Getting Super Powers
+## Check Present Working Directory
 
-Becoming a super hero is a fairly straight forward process:
+**`pwd`** command tells you the Present Working Directory
 
+```bash
+$pwd
+/home/runner/linux-cli
 ```
-$ give me super-powers
+
+## Create a new directory
+
+**`mkdir`** command makes a new directory
+
+```bash
+$mkdir test
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+A new directory is created with the name 'test'. 
 {% endhint %}
 
-Once you're strong enough, save the world:
+## Change to a directory
 
-{% code title="hello.sh" %}
+**cd** command changes directory.
+
 ```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+$cd test
 ```
-{% endcode %}
 
+{% hint style="info" %}
+You changed to the directory named 'test'. Check with the**`pwd`** command.
+{% endhint %}
 
-[![Run on Repl.it](https://repl.it/badge/github/rakesh2215/linux-cli)](https://repl.it/github/rakesh2215/linux-cli)
+```bash
+$pwd
+/home/runner/linux-cli/test
+```
 
