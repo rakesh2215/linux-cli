@@ -1,5 +1,5 @@
 ---
-description: Basic commands
+description: Basic commands for file operations
 ---
 
 # Linux Commands
